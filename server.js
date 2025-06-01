@@ -21,7 +21,6 @@ app.post('/proxy', async (req, res) => {
         'Content-Type': 'application/json',
       },
     });
-
     res.json(response.data);
   } catch (error) {
     res.status(500).json({ error: 'API 요청 실패', detail: error.message });
