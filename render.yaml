@@ -4,6 +4,6 @@ services:
     name: benekick-proxy
     env: node
     buildCommand: ""
-    startCommand: "node server.js"
+    startCommand: "node src/server.js"
     rootDir: .
     plan: free
